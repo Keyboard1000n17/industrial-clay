@@ -1,8 +1,12 @@
 {
-  "name": "oldnew",
-  "displayName": "OldNew",
-  "description": "The plain web styles but modern (don't hurt your eyes!)",
+  "name": "industrial-clay",
+  "displayName": "Industrial Clay",
+  "description": "A (terrible!) theme for VS Code!",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Keyboard1000n17/industrial-clay"
+  },
   "engines": {
     "vscode": "^1.118.0"
   },
@@ -12,9 +16,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "OldNew",
-        "uiTheme": "vs-dark",
-        "path": "./themes/OldNew-color-theme.json"
+        "label": "Industrial Clay",
+        "uiTheme": "vs",
+        "path": "./themes/industrial-clay-color-theme.json"
       }
     ]
   }
