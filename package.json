@@ -1,0 +1,21 @@
+{
+  "name": "oldnew",
+  "displayName": "OldNew",
+  "description": "The plain web styles but modern (don't hurt your eyes!)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.118.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "OldNew",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OldNew-color-theme.json"
+      }
+    ]
+  }
+}
